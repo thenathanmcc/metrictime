@@ -2,7 +2,7 @@
 apt-get update
 yes | apt-get install nginx
 yes | ufw enable
-yes | ufw allow 'Nginx HTTP'
+yes | ufw allow 'Nginx Full'
 yes | ufw allow 'ssh'
 
 ## Make directory for serving react frontend
